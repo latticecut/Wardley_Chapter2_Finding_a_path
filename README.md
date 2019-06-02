@@ -6,13 +6,13 @@ This is a Wardley Map for Chapter 2 of Simon Wardley's online book on topographi
 
 # Motivation 
 
-Wardley Mapping has proved a useful tool for that can serve as a basis for framing technology evolution and business strategy. 
+Wardley Mapping has proved a useful tool for that can serve as a basis for framing the analysis of technology maturity and business strategy. 
 
-This is an example of visualizing Wardley Maps and Value Chain dependancy networks in LaTeX. It aims to provide a simple and easy method to create, visualize and modify Wardley Maps that is consistent with best practise in document management and version control. 
+This is an example of visualizing Wardley Maps and Value Chain dependency networks in LaTeX. It aims to provide a simple and easy method to create, visualize and modify Wardley Maps that is consistent with best practise in document management and version control. 
 
 The example is based on the PGF/Ti*k*Z languages for producing vector graphics from a geometric/algebraic description. PGF is a lower-level language, while Ti*k*Z is a set of higher-level macros that use PGF and an interpreter written in TeX by Till Tantau.
 
-Particular focus is made on the software usability and interoperability with other tools. Simple maps can be directly created within LaTeX, while more complex networks can be imported from external sources (e.g. NetworkX, QGIS, ...) although I don't go that far in this project. 
+Particular focus is made on the software usability and interoperability with other tools. Simple maps can be directly created in LaTeX, while more complex networks can be imported from external sources (e.g. NetworkX, QGIS, ...) although I don't go that far in this project. 
 
 This example makes use of tikz-network.sty from Juergen Hackl but you can just use plain Ti*k*Z as necessary. 
 

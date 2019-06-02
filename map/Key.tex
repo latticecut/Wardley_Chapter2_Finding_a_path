@@ -1,20 +1,42 @@
 
-\tikzset{key/.pic={
-    \draw[fill=white](0,0) rectangle (2,2){};
-    \Text[x=0.4,y=1.8,color=black,fontsize=\footnotesize]{\texttt{Key:}};
+% \tikzset{key/.pic={
+%     \draw[fill=white](0,0) rectangle (2,2){};
+%     \Text[x=0.4,y=1.8,color=black,fontsize=\footnotesize]{\texttt{Key:}};
     
-    % Practice
-    \Vertex[x=0.4,y=1.3,size=0.3,color=black,position=0,distance=1.0,fontcolor=black,shape = diamond,IdAsLabel]{Practise}
-    
-    % Activity
-    \Vertex[x=0.4,y=0.8,size=0.3,color=gray!50,position=0,distance=1.0,fontcolor=black,shape = rectangle,IdAsLabel]{Activity}
+%     % Activity
+%     \Vertex[x=0.4,y=0.8,size=0.3,color=gray!50,position=0,distance=1.0,fontcolor=black,shape = rectangle,IdAsLabel]{Activity}
 
-    % Resource
-    \Vertex[x=0.4,y=0.3,size=0.3,color=white,position=0,distance=1.0,fontcolor=black,shape = circle,IdAsLabel]{Resource}
+%     % Resource
+%     \Vertex[x=0.4,y=0.3,size=0.3,color=white,position=0,distance=1.0,fontcolor=black,shape = circle,IdAsLabel]{Resource}
     
-}}
+% }}
 
 % position Key on Map from bottom left corner
 %\path pic () at (1,7.5) {key};
 
+\tikzset{key/.pic={
+    \draw[fill=gray!30](-1.75,-1.35) rectangle (1.87,1.35){};
+    \node (tab1) {%
+        
+        % Table 
+        \begin{table}[]
+        \scalebox{0.7}{
+        \begin{tabular}{|l|l|l|}
+        \hline
+        \multirow{6}{*}{Basic Map} & Visual & \textcolor{red}{Yes} \\ \cline{2-3}
+                          & Context & \textcolor{red}{Yes}  \\ \cline{2-3}
+                          & Position & \textcolor{red}{Yes}  \\ \cline{2-3}
+                          & Anchor & \textcolor{red}{Yes}  \\ \cline{2-3}
+                          & Movement & \textcolor{red}{Yes}  \\ \cline{2-3}
+                          & Components & \textcolor{red}{Yes}  \\ \hline
+       \multirow{3}{*}{\textcolor{red}{Advanced}} & \textcolor{flowColour}{Flow} & \textcolor{red}{Yes}   \\ \cline{2-3}
+                          & \textcolor{climateColour}{Climate} & \textcolor{red}{Yes}  \\ \cline{2-3}
+                          & \textcolor{typeColour}{Type} & \textcolor{red}{Yes}  \\ \hline
+        \end{tabular}
+        }
+        \end{table}
+    };
+}}
 
+% position Key on Map from centre
+\path pic () at (8.5,8.5) {key};

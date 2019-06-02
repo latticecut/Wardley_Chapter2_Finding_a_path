@@ -1,0 +1,33 @@
+
+% Types of Component 
+
+% Platform
+\Vertex[x=4.85,y=4.8,size=0.3,color=typeColour,position=-100,distance=1.0,fontcolor=black,shape=circle,IdAsLabel]{}
+
+    \node[align=left,rotate=0,color=typeColour,text width=3.5cm] at (3,5) { \small{
+        + types of component (activity, practice, data and knowledge)}
+        };
+
+% Climate 
+\Vertex[x=7.7, y=4.8, NoLabel, Pseudo]{Platform-t}
+
+\Edge[Direct, style={dashed}, color = climateColour](Platform)(Platform-t)
+
+    % Inertia 
+    \fill[black!] (6.9,4.4) rectangle (7,5.2);
+    
+    \Text[x=7.5,y=5.1+0.15,fontsize=\footnotesize]{Inertia}
+
+    \node[align=left,rotate=0,color=climateColour,text width=4cm] at (8.8,4) { \small{
+    + climate (common economic patterns \& anticipation of change)}
+    };
+
+% Flow 
+\draw[color=flowColour,ultra thick] (3.5,9.4) -- (3.1,8.45) -- (5.4,7.25) -- (5.9,6.15) -- (6.2,2.6) -- (7.9,0.9);
+
+    % In practice this is not a good way to deal with flow but I will develop this further in a future example 
+    
+    \node[align=left,rotate=0,color=flowColour,text width=4cm] at (8.8,1.8) { \small{
+    + flow (risk, information, money)}
+    };
+
