@@ -1,13 +1,36 @@
 %%%% APPLICATION LAYER EDGES %%%%%%
 
-% Efficiency Analysis
-\Edge[lw=1.0,color=gray,opacity=0.5,bend=0](User)(Efficiency Analysis)
+% Customer
+\Edge[lw=1.0,color=black,opacity=1,bend=0](Customer)(Online Image Manipulation)
+\Edge[lw=1.0,color=black,opacity=1,bend=0](Customer)(Online Photo Storage)
+\Edge[lw=1.0,color=black,opacity=1,bend=0](Customer)(Print)
+\Edge[lw=1.0,color=black,opacity=1,bend=0](Customer)(Web Site)
 
-% System Logic
-\Edge[lw=1.0,color=gray,opacity=0.5,bend=0](Efficiency Analysis)(System Logic)
+% Online Image Manipulation
+\Edge[lw=1.0,color=black,opacity=1,bend=0](Online Image Manipulation)(Online Photo Storage)
 
-% Power Sensors 
-\Edge[lw=1.0,color=gray,opacity=0.5,bend=0](System Logic)(Power Sensors)
+% Online Photo Storage
+\Edge[lw=1.0,color=black,opacity=1,bend=0](Online Photo Storage)(Web Site)
 
-% Environmental Data
-\Edge[lw=1.0,color=gray,opacity=0.5,bend=0](Power Sensors)(Environmental Data)
+% Print
+\Edge[lw=1.0,color=black,opacity=1,bend=0](Print)(Web Site)
+
+% Web Site
+\Edge[lw=1.0,color=black,opacity=1,bend=0](Web Site)(CRM)
+\Edge[lw=1.0,color=black,opacity=1,bend=0](Web Site)(Platform)
+
+% CRM
+\Edge[lw=1.0,color=black,opacity=1,bend=0](CRM)(Compute)
+
+% Platform
+\Edge[lw=1.0,color=black,opacity=1,bend=0](Platform)(Compute)
+
+% Compute
+\Edge[lw=1.0,color=black,opacity=1,bend=0](Compute)(Data Centre)
+\Edge[lw=1.0,color=black,opacity=1,bend=0](Compute)(Power)
+
+% Data Centre
+\Edge[lw=1.0,color=black,opacity=1,bend=0](Data Centre)(Power)
+
+% Power
+

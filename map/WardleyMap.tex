@@ -1,30 +1,39 @@
+% position an original image/map if useful 
+% scale/position manually as desired 
 
-\begin{pgfonlayer}{map}
-
-\draw[help lines, step=0.5, color=gray!30, dashed] (0,0) grid (10,10);
+%\begin{pgfonlayer}{shading}
+%\node[inner sep=0pt] (Fig8) at (5,5)
+%    {\includegraphics[width=435pt,height=320pt]{images/Fig8_original.jpeg}};
+%\end{pgfonlayer}   
     
+\begin{pgfonlayer}{map}
+% help lines if useful 
+%\draw[help lines, step=0.5, color=gray!30, dashed] (0,0) grid (10,10);
+ 
+% x and y axis    
 \draw[->,>=angle 60, ultra thick] (0,0)--(10,0) node[right]{$x$};
 \node[align=left] at (9.75,-0.3) {Evolution};
     
 \draw[->,>=angle 60, ultra thick] (0,0)--(0,10) node[left]{$y$};
 \node[align=left,rotate=90] at (-0.3,5) {Value chain};
     
-%% Genesis
+% Genesis
 \Text[x=0.4,y=-0.3,color=gray,fontsize=\footnotesize]{\texttt{Genesis}};
 
-%% Custom Build
-\draw[-, dotted, color=gray, thick] (1.8,-0.4)--(1.8,10);
+% Custom Build
+\draw[-, dotted, color=gray, thick] (1.75,-0.4)--(1.75,10);
 \Text[x=2.5,y=-0.3,color=gray,fontsize=\footnotesize]{\texttt{Custom Build}};
      
-%% Product(+rental)
-\draw[-, dotted, color=gray, thick] (4,-0.4)--(4,10);
+% Product(+rental)
+\draw[-, dotted, color=gray, thick] (3.9,-0.4)--(3.9,10);
 \Text[x=4.9,y=-0.3,color=gray,fontsize=\footnotesize]{\texttt{Product(+rental)}};
    
-%% Commodity(+unity)
-\draw[-, dotted, color=gray, thick] (7,-0.4)--(7,10);
+% Commodity(+unity)
+\draw[-, dotted, color=gray, thick] (6.95,-0.4)--(6.95,10);
 \Text[x=8,y=-0.3,color=gray,fontsize=\footnotesize]{\texttt{Commodity(+unity)}}
 
-%% Numbering / ticks
+% Numbering / ticks is useful
+% Comment out as desired but you can just omitt whole debug layer 
 \begin{pgfonlayer}{debug}
 % X-AXIS
 \draw[-,color=red, thin] (1,0)--(1,0.1);
