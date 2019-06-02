@@ -15,21 +15,23 @@
 \pgfdeclarelayer{background}
 \pgfdeclarelayer{foreground}
 \pgfdeclarelayer{debug}
-\pgfdeclarelayer{sankeydebug}
 \pgfdeclarelayer{annotate}
-\pgfsetlayers{shading,map,background,main,foreground,annotate,sankeydebug,debug}
+\pgfsetlayers{shading,map,background,main,foreground,annotate,debug}
 %
 
 % map
-% node tokens
-% dependency
+% key
 % strata
+% plates
+% groups
 % flows
-%   - 
+% strategy
 %   - 
 % annotations
 % debug
 
+
+% Hobby Convex Paths for Groups etc. 
 % https://tex.stackexchange.com/questions/121286/error-with-hobbyconvexpath
 \newcommand{\hobbyconvexpath}[2]{
 [   
@@ -76,7 +78,3 @@
 % DEFINE COLOURS 
 \definecolor{layer1}{RGB}{208,217,238}
 \definecolor{layer2}{RGB}{164,185,225}
-
-%\definecolor{CJBSyellow}{RGB}{249,172,24}
-
-\newif\ifsankeydebug
