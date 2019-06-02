@@ -16,6 +16,8 @@ Particular focus is made on the software usability and interoperability with oth
 
 This example makes use of tikz-network.sty from Juergen Hackl but you can just use plain Ti*k*Z as necessary. 
 
+You can see the final figure downloaded in as a pdf in the relevant folder. 
+
 # Figure 8
 
 This has been split out into one stratum, the Application Layer with two .tex files for nodes (V) and edges (E) respectively.
