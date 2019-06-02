@@ -22,7 +22,7 @@ This has been split out into one stratum, the Application Layer with two .tex fi
 
 # Figure 11
 
-Here we add examples of this can be rendered using the "Annotation"
+Here we add examples of this can be rendered using the "Fig11_Annotation.tex" file. Comment out as desired. In practice a lot of content in the file is cosmetic, for example the formatting of the Key. This is not required for 
 
 
 
