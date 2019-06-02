@@ -1,0 +1,49 @@
+\documentclass{standalone}
+%\documentclass[10pt,a4paper]{article} 
+
+\input{preamble.tex}
+
+
+\begin{document}
+
+    
+    \SetDefaultUnit{cm}
+    \SetDistanceScale{1}
+
+
+    \begin{tikzpicture}[use Hobby shortcut, xscale=1.414,yscale=1] %change aspect ratio as necessary 
+    
+    % only show part of the map, comment out for whole map
+    %\clip (5,0) rectangle (10,5);
+    
+        \sffamily
+    
+        %%% MAP %%%
+        \input{map/ShadingBackground.tex}
+        \input{map/WardleyMap.tex}
+    
+        %%% NODES %%% 
+        \input{strata/ApplicationStratumV.tex}
+        
+        %%% PLATES %%% 
+        %\input{plates/ExamplePlate.tex}
+        
+        %%% EDGES %%% 
+        \input{strata/ApplicationStratumE.tex}
+       
+        %%% ANNOTATION LAYERS %%%
+        %\input{layers/Annotations.tex}
+        
+        %\input{layers/StrategyLayerV.tex}
+        %\input{layers/StrategyLayerE.tex}
+        
+        \input{map/Key.tex}
+        
+
+    \end{tikzpicture}
+
+   
+    
+\end{document}
+
+

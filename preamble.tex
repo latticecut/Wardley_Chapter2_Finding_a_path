@@ -1,0 +1,82 @@
+% packages
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usetikzlibrary{hobby}
+\usetikzlibrary{trees}
+\pgfplotsset{compat=1.15}
+
+\usetikzlibrary{calc}
+\usepackage{etoolbox}
+\usepackage{tikz-network}
+
+% set up layers 
+\pgfdeclarelayer{shading}
+\pgfdeclarelayer{map}
+\pgfdeclarelayer{background}
+\pgfdeclarelayer{foreground}
+\pgfdeclarelayer{debug}
+\pgfdeclarelayer{sankeydebug}
+\pgfdeclarelayer{annotate}
+\pgfsetlayers{shading,map,background,main,foreground,annotate,sankeydebug,debug}
+%
+
+% map
+% node tokens
+% dependency
+% strata
+% flows
+%   - 
+%   - 
+% annotations
+% debug
+
+% https://tex.stackexchange.com/questions/121286/error-with-hobbyconvexpath
+\newcommand{\hobbyconvexpath}[2]{
+[   
+    create hobbyhullnodes/.code={
+        \global\edef\namelist{#1}
+        \foreach [count=\counter] \nodename in \namelist {
+            \global\edef\numberofnodes{\counter}
+            \node at (\nodename)
+[draw=none,name=hobbyhullnode\counter] {};
+        }
+        \node at (hobbyhullnode\numberofnodes)
+[name=hobbyhullnode0,draw=none] {};
+        \pgfmathtruncatemacro\lastnumber{\numberofnodes+1}
+        \node at (hobbyhullnode1)
+[name=hobbyhullnode\lastnumber,draw=none] {};
+    },
+    create hobbyhullnodes
+]
+($(hobbyhullnode1)!#2!-90:(hobbyhullnode0)$)
+\pgfextra{
+  \gdef\hullpath{}
+\foreach [
+    evaluate=\currentnode as \previousnode using int(\currentnode-1),
+    evaluate=\currentnode as \nextnode using int(\currentnode+1)
+    ] \currentnode in {1,...,\numberofnodes} {
+    \ifnum\currentnode=1\relax
+    \xdef\hullpath{([closed=true]$(hobbyhullnode\currentnode)!#2!180:(hobbyhullnode\previousnode)$)
+  ..($(hobbyhullnode\nextnode)!0.5!(hobbyhullnode\currentnode)$)}
+    \else
+    \xdef\hullpath{\hullpath
+  ..($(hobbyhullnode\currentnode)!#2!180:(hobbyhullnode\previousnode)$)
+  ..($(hobbyhullnode\nextnode)!0.5!(hobbyhullnode\currentnode)$)}
+    \fi
+    \ifx\currentnode\numberofnodes
+    \else
+    \xdef\hullpath{\hullpath
+  ..($(hobbyhullnode\nextnode)!#2!-90:(hobbyhullnode\currentnode)$)}
+    \fi
+}
+}
+\hullpath
+}
+
+% DEFINE COLOURS 
+\definecolor{layer1}{RGB}{208,217,238}
+\definecolor{layer2}{RGB}{164,185,225}
+
+%\definecolor{CJBSyellow}{RGB}{249,172,24}
+
+\newif\ifsankeydebug
