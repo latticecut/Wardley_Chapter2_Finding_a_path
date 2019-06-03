@@ -8,7 +8,7 @@ This is a Wardley Map for Chapter 2 of Simon Wardley's [online book](https://med
 
 Wardley Mapping has proved a useful tool for that can serve as a basis for framing the analysis of technology maturity and helping develop business strategy. 
 
-This is an example of visualizing Wardley Maps and Value Chain dependency networks in LaTeX. It aims to provide a simple and easy method to create, visualize and modify Wardley Maps that is consistent with best practise in collaboration, document management and version control. 
+This is an example of visualizing Wardley Maps and Value Chain dependency networks in LaTeX. It aims to provide a simple and easy method to create, visualize and modify Wardley Maps that is consistent with best practise in collaboration, document management and version control. My main motivation is to create a mapping workflow that can work well across teams and document versions etc. In this reagard working with GitHub and the [Overleaf](https://www.overleaf.com/) hosted LaTeX editor has proved successful.  
 
 The example is based on the PGF/Ti*k*Z languages for producing vector graphics from a geometric/algebraic description. PGF is a lower-level language, while Ti*k*Z is a set of higher-level macros that use PGF and an interpreter written in TeX by Till Tantau.
 
@@ -22,11 +22,11 @@ This example makes use of tikz-network.sty from Juergen Hackl but it is entirely
 
 Figure 8 is what a map of a single line of business should look like. Simon created the first map in 2005 and it was for an online photo service. 
 
-This has been split out into a single stratum, the Application Layer with two '.tex' files for nodes (V) and edges (E) respectively.
+This has been split out into a single stratum, the Application Layer with two `.tex` files for nodes (V) and edges (E) respectively.
 
 ## Figure 11
 
-Here we add example annotations using the 'Fig11_Annotation.tex' file over the top of the Map from Figure 8. Comment out as desired. 
+Here we add example annotations using the `Fig11_Annotation.tex` file over the top of the Map from Figure 8. Comment out as desired. 
 
 In practice a lot of the code in this file is just about styling, for example the formatting of the Key, and can be ignored during the normal mapping process. However, I have tried remain faithful to Simon's original style/rendering. 
 
