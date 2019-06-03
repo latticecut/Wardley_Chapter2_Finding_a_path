@@ -2,7 +2,7 @@
 
 > "it has always been standardisation of components that has enabled creations of greater complexity" - Simon Wardley  
  
-This is a Wardley Map for Chapter 2 of Simon Wardley's [online book](https://medium.com/wardleymaps/on-being-lost-2ef5f05eb1ec) on topographical intelligence for business strategy [Wardley2016](1). Full details can be found here (reading time ~24 mins): https://bit.ly/2zI1tpY 
+This is a Wardley Map for Chapter 2 of Simon Wardley's [online book](https://medium.com/wardleymaps/on-being-lost-2ef5f05eb1ec) on topographical intelligence for business strategy [Wardley2016][1]. Full details can be found here (reading time ~24 mins): https://bit.ly/2zI1tpY 
 
 # The first map 
 
