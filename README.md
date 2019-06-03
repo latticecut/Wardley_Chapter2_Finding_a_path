@@ -18,13 +18,13 @@ The Map is simply a collection of different .tex files that allow you to build u
 
 This example makes use of tikz-network.sty from Juergen Hackl but it is entirely possible use plain Ti*k*Z. You can see an example of the final figure Figure 11 downloaded as a pdf in the folder structure. 
 
-# Figure 8
+## Figure 8
 
 Figure 8 is what a map of a single line of business should look like. Simon created the first map in 2005 and it was for an online photo service. 
 
 This has been split out into one stratum, the Application Layer with two .tex files for nodes (V) and edges (E) respectively.
 
-# Figure 11
+## Figure 11
 
 Here we add example annotations using the "Fig11_Annotation.tex" file over the top of the Map from Figure 8. Comment out as desired. 
 
