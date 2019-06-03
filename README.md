@@ -2,7 +2,7 @@
 
 > "it has always been standardisation of components that has enabled creations of greater complexity" - Simon Wardley  
  
-This is a Wardley Map for Chapter 2 of Simon Wardley's [online book](https://medium.com/wardleymaps/on-being-lost-2ef5f05eb1ec) on topographical intelligence for business strategy [3](1). Full details can be found here (reading time ~24 mins): https://bit.ly/2zI1tpY 
+This is a Wardley Map for Chapter 2 of Simon Wardley's [online book](https://medium.com/wardleymaps/on-being-lost-2ef5f05eb1ec) on topographical intelligence for business strategy [1](1). Full details can be found here (reading time ~24 mins): https://bit.ly/2zI1tpY 
 
 # The first map 
 
@@ -22,11 +22,11 @@ This example makes use of tikz-network.sty from Juergen Hackl but it is entirely
 
 Figure 8 is what a map of a single line of business should look like. Simon created the first map in 2005 and it was for an online photo service. 
 
-This has been split out into a single stratum, the Application Layer with two .tex files for nodes (V) and edges (E) respectively.
+This has been split out into a single stratum, the Application Layer with two '.tex' files for nodes (V) and edges (E) respectively.
 
 ## Figure 11
 
-Here we add example annotations using the "Fig11_Annotation.tex" file over the top of the Map from Figure 8. Comment out as desired. 
+Here we add example annotations using the 'Fig11_Annotation.tex' file over the top of the Map from Figure 8. Comment out as desired. 
 
 In practice a lot of the code in this file is just about styling, for example the formatting of the Key, and can be ignored during the normal mapping process. However, I have tried remain faithful to Simon's original style/rendering. 
 
@@ -36,6 +36,6 @@ Simon Wardley's [online book](https://medium.com/wardleymaps/on-being-lost-2ef5f
 
 # References
 
-[1]: Simon Wardley. Wardley maps: topographical intelligence in business. 2016.
+[###1]: Simon Wardley. Wardley maps: topographical intelligence in business. 2016.
 
 License: [CC-SA](LICENSE.md)
