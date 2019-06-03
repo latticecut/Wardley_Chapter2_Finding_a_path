@@ -2,7 +2,7 @@
 
 > "it has always been standardisation of components that has enabled creations of greater complexity" - Simon Wardley  
  
-This is a Wardley Map for Chapter 2 of Simon Wardley's online book on topographical intelligence for business strategy [Wardley2016](#3). Full details can be found here (reading time ~24 mins): https://bit.ly/2zI1tpY 
+This is a Wardley Map for Chapter 2 of Simon Wardley's [online book](https://medium.com/wardleymaps/on-being-lost-2ef5f05eb1ec) on topographical intelligence for business strategy [3][#3]. Full details can be found here (reading time ~24 mins): https://bit.ly/2zI1tpY 
 
 # The first map 
 
@@ -22,7 +22,7 @@ This example makes use of tikz-network.sty from Juergen Hackl but it is entirely
 
 Figure 8 is what a map of a single line of business should look like. Simon created the first map in 2005 and it was for an online photo service. 
 
-This has been split out into one stratum, the Application Layer with two .tex files for nodes (V) and edges (E) respectively.
+This has been split out into a single stratum, the Application Layer with two .tex files for nodes (V) and edges (E) respectively.
 
 ## Figure 11
 
@@ -32,12 +32,14 @@ In practice a lot of the code in this file is just about styling, for example th
 
 # Further Reading 
 
-Everything Simon's written. [list to be expanded]
+Simon Wardley's [online book](https://medium.com/wardleymaps/on-being-lost-2ef5f05eb1ec) on topographical intelligence for business strategy.
 
 # References
 
-[1]: Henry Chesbrough, Richard S Rosenbloom, and John Seely Brown. The Role of the Business Model in CapturingValue from Innovation:  Evidence from Xerox Corporation’s Technology Spinoff Companies.Industrial andCorporate Change, 11, 2002.
+[#1]: Henry Chesbrough, Richard S Rosenbloom, and John Seely Brown. The Role of the Business Model in Capturing Value from Innovation:  Evidence from Xerox Corporation’s Technology Spinoff Companies. Industrial and Corporate Change, 11, 2002.
 
-[2]: Ramon Casadesus-Masanell and Joan Enric Ricart.  From Strategy to Business Models and onto Tactics.LongRange Planning, 43:195–215, 2010.
+[#2]: Ramon Casadesus-Masanell and Joan Enric Ricart.  From Strategy to Business Models and onto Tactics. Long Range Planning, 43:195–215, 2010.
 
-[3]: Simon Wardley.Wardley maps: topographical intelligence in business. 2016.
+[#3]: Simon Wardley. Wardley maps: topographical intelligence in business. 2016.
+
+License: [CC-SA](LICENSE.md)
