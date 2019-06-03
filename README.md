@@ -2,7 +2,7 @@
 
 > "it has always been standardisation of components that has enabled creations of greater complexity" - Simon Wardley  
  
-This is a Wardley Map for Chapter 2 of Simon Wardley's online book on topographical intelligence for business strategy [@Wardley2016WardleyBusiness]. Full details can be found here (reading time ~24 mins): https://bit.ly/2zI1tpY 
+This is a Wardley Map for Chapter 2 of Simon Wardley's online book on topographical intelligence for business strategy ([#ref3][Wardley2016]). Full details can be found here (reading time ~24 mins): https://bit.ly/2zI1tpY 
 
 # The first map 
 
@@ -36,3 +36,8 @@ Everything Simon's written. [list to be expanded]
 
 # References
 
+[ref1]: Henry Chesbrough, Richard S Rosenbloom, and John Seely Brown. The Role of the Business Model in CapturingValue from Innovation:  Evidence from Xerox Corporation’s Technology Spinoff Companies.Industrial andCorporate Change, 11, 2002.
+
+[ref2]: Ramon Casadesus-Masanell and Joan Enric Ricart.  From Strategy to Business Models and onto Tactics.LongRange Planning, 43:195–215, 2010.
+
+[ref3]: Simon Wardley.Wardley maps: topographical intelligence in business. 2016.
