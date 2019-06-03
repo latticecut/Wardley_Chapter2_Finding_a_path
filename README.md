@@ -36,6 +36,6 @@ Simon Wardley's [online book](https://medium.com/wardleymaps/on-being-lost-2ef5f
 
 # References
 
-#1: Simon Wardley. Wardley maps: topographical intelligence in business. 2016.
+# 1: Simon Wardley. Wardley maps: topographical intelligence in business. 2016.
 
 License: [CC-SA](LICENSE.md)
