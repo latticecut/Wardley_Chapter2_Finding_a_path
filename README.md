@@ -2,9 +2,9 @@
 
 > "it has always been standardisation of components that has enabled creations of greater complexity" - Simon Wardley  
  
-This is a Wardley Map for Chapter 2 of Simon Wardley's online book on topographical intelligence for business strategy. Full details can be found here (reading time ~24 mins): https://bit.ly/2zI1tpY 
+This is a Wardley Map for Chapter 2 of Simon Wardley's online book on topographical intelligence for business strategy [@Wardley2016WardleyBusiness]. Full details can be found here (reading time ~24 mins): https://bit.ly/2zI1tpY 
 
-# Motivation 
+# The first map 
 
 Wardley Mapping has proved a useful tool for that can serve as a basis for framing the analysis of technology maturity and helping develop business strategy. 
 
@@ -20,11 +20,22 @@ This example makes use of tikz-network.sty from Juergen Hackl but it is entirely
 
 # Figure 8
 
+Figure 8 is what a map of a single line of business should look like. Simon created the first map in 2005 and it was for an online photo service. 
+
 This has been split out into one stratum, the Application Layer with two .tex files for nodes (V) and edges (E) respectively.
 
 # Figure 11
 
-Here we add example annotations using the "Fig11_Annotation.tex" file over the top of the Map from Figure 8. Comment out as desired. In practice a lot of the code in this file is just about styling, for example the formatting of the Key, and can be ignored during the normal mapping process. However, I have tried remain faithful to Simon's original style/rendering. 
+Here we add example annotations using the "Fig11_Annotation.tex" file over the top of the Map from Figure 8. Comment out as desired. 
+
+In practice a lot of the code in this file is just about styling, for example the formatting of the Key, and can be ignored during the normal mapping process. However, I have tried remain faithful to Simon's original style/rendering. 
+
+# Further Reading 
+
+Everything Simon's written. [list to be expanded]
+
+# References
+
 
 
 
