@@ -14,9 +14,11 @@ The example is based on the PGF/Ti*k*Z languages for producing vector graphics f
 
 Particular focus is made on the software usability and interoperability with other tools. Simple maps can be directly created in LaTeX, while more complex networks can be imported from external sources (e.g. NetworkX, QGIS, ...) although I don't go that far in simple example. 
 
-The Map is simply a collection of different .tex files that allow you to build up the representation of a business. Whilst this is a simple example I have kept the file structure similar to a more complicated project, decomposing the final Map into different Layers, Plates and Strata and separating Vertices and Edges into different .tex files. As the practice of mapping matures it is likely that this decomposition will evolve to a standard form. 
+The map is simply a collection of different `.tex` files that allow you to build up the representation of a business. Whilst this is a simple example I have kept the file structure similar to a more complicated project, decomposing the final Map into different Layers, Plates and Strata and separating Vertices and Edges into different `.tex` files. As the practice of mapping matures it is likely that this decomposition will evolve to a standard form. 
 
-This example makes use of tikz-network.sty from Juergen Hackl but it is entirely possible use plain Ti*k*Z. You can see an example of the final figure Figure 11 downloaded as a [pdf](pdf/Wardely_Chapter2_Finding_a_path.pdf) in the folder structure. 
+This example makes use of tikz-network.sty from Juergen Hackl but it is entirely possible use plain Ti*k*Z. The Ti*k*Z manual can be found [here](https://arxiv.org/pdf/1709.06005.pdf) 
+
+You can see an example of the final figure Figure 11 downloaded as a [pdf](pdf/Wardely_Chapter2_Finding_a_path.pdf) in the folder structure.
 
 ## Figure 8
 

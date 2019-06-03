@@ -1,5 +1,10 @@
- 
+
 \begin{pgfonlayer}{map}
+
+% position an orginal image/map if useful 
+\node[inner sep=0pt] (Fig8) at (0,0)
+    {\includegraphics[width=.25\textwidth]{images/Fig8_original.jpg}};
+
 % help lines if useful 
 %\draw[help lines, step=0.5, color=gray!30, dashed] (0,0) grid (10,10);
  
@@ -14,15 +19,15 @@
 \Text[x=0.4,y=-0.3,color=gray,fontsize=\footnotesize]{\texttt{Genesis}};
 
 % Custom Build
-\draw[-, dotted, color=gray, thick] (1.75,-0.4)--(1.75,10);
+\draw[-, dotted, color=gray, thick] (1.8,-0.4)--(1.8,10);
 \Text[x=2.5,y=-0.3,color=gray,fontsize=\footnotesize]{\texttt{Custom Build}};
      
 % Product(+rental)
-\draw[-, dotted, color=gray, thick] (3.9,-0.4)--(3.9,10);
+\draw[-, dotted, color=gray, thick] (4,-0.4)--(4,10);
 \Text[x=4.9,y=-0.3,color=gray,fontsize=\footnotesize]{\texttt{Product(+rental)}};
    
 % Commodity(+unity)
-\draw[-, dotted, color=gray, thick] (6.95,-0.4)--(6.95,10);
+\draw[-, dotted, color=gray, thick] (7,-0.4)--(7,10);
 \Text[x=8,y=-0.3,color=gray,fontsize=\footnotesize]{\texttt{Commodity(+unity)}}
 
 % Numbering / ticks is useful
