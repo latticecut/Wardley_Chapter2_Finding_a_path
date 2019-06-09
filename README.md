@@ -26,11 +26,15 @@ Figure 8 is what a map of a single line of business should look like. Simon crea
 
 This has been split out into a single stratum, the Application Layer with two `.tex` files for nodes (V) and edges (E) respectively.
 
+![](images/Figure8.png?raw=true)
+
 ## Figure 11
 
 Here we add example annotations using the `Fig11_Annotation.tex` file over the top of the Map from Figure 8. Comment out as desired. 
 
 In practice a lot of the code in this file is just about styling, for example the formatting of the Key, and can be ignored during the normal mapping process. However, I have tried remain faithful to Simon's original style/rendering. 
+
+![](images/Figure11.png?raw=true)
 
 # Further Reading 
 
