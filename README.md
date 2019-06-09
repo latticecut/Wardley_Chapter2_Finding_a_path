@@ -26,8 +26,7 @@ Figure 8 is what a map of a single line of business should look like. Simon crea
 
 This has been split out into a single stratum, the Application Layer with two `.tex` files for nodes (V) and edges (E) respectively.
 
-![alt text][Fig8]
-[Fig8]: https://github.com/latticecut/Wardley_Chapter2_Finding_a_path/blob/master/images/Fig8.png "Chapter 2, Figure 8"
+![alt text](https://github.com/latticecut/Wardley_Chapter2_Finding_a_path/blob/master/images/Fig8.png "Chapter 2, Figure 8")
 
 ## Figure 11
 
