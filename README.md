@@ -34,7 +34,7 @@ Here we add example annotations using the `Fig11_Annotation.tex` file over the t
 
 In practice a lot of the code in this file is just about styling, for example the formatting of the Key, and can be ignored during the normal mapping process. However, I have tried remain faithful to Simon's original style/rendering. 
 
-![](images/Figure11.png?raw=true)
+![alt text](https://github.com/latticecut/Wardley_Chapter2_Finding_a_path/blob/master/images/Fig11.png "Chapter 2, Figure 11")
 
 
 
