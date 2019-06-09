@@ -26,7 +26,8 @@ Figure 8 is what a map of a single line of business should look like. Simon crea
 
 This has been split out into a single stratum, the Application Layer with two `.tex` files for nodes (V) and edges (E) respectively.
 
-![](images/Figure8.png?raw=true)
+![alt text][Fig8]
+[Fig8]: https://github.com/latticecut/Wardley_Chapter2_Finding_a_path/blob/master/images/Fig8.png "Chapter 2, Figure 8"
 
 ## Figure 11
 
@@ -35,6 +36,8 @@ Here we add example annotations using the `Fig11_Annotation.tex` file over the t
 In practice a lot of the code in this file is just about styling, for example the formatting of the Key, and can be ignored during the normal mapping process. However, I have tried remain faithful to Simon's original style/rendering. 
 
 ![](images/Figure11.png?raw=true)
+
+
 
 # Further Reading 
 
