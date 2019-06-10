@@ -12,7 +12,7 @@ This is an example of visualizing Wardley Maps and Value Chain dependency networ
 
 The example is based on the PGF/Ti*k*Z languages for producing vector graphics from a geometric/algebraic description. PGF is a lower-level language, while Ti*k*Z is a set of higher-level macros that use PGF and an interpreter written in TeX by Till Tantau.
 
-You can find an introductory video to get started using Ti*k*Z here: [Basic Drawing Using Ti*k*Z]https:(//www.youtube.com/watch?v=pcIzeN46ETc)
+You can find an introductory video to get started using Ti*k*Z here: [Basic Drawing Using Ti*k*Z](https://www.youtube.com/watch?v=pcIzeN46ETc)
 
 Particular focus is made on the software usability and interoperability with other tools. Simple maps can be directly created in LaTeX, while more complex networks can be imported from external sources (e.g. NetworkX, QGIS, ...) although I don't go that far in simple example. 
 
